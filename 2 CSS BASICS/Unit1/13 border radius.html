@@ -3,31 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Border Raduis</title>
 </head>
 <style>
-    #purple{
+    .purple{
         position: relative;
         height:300px;
         width:400px;
         background-color: #62306D;
     }
-    .yellowcurve{
+    #yellowcurve{
         position: absolute;
+        top: 150px;
+        right: 100px;
         background-color: #F7EC7D;
+        border-radius: 0px 0px 50px 50px;
+        width: 80px;
+        height: 80px;  
     }
     #middle-curve{
-
+        position: absolute;
+        top: 70px;
+        left: 140px;
+        background-color: #F7EC7D;
+        border-radius: 50px 50px 0px 0px;
+        width: 80px;
+        height: 80px; 
     }
     #left-curve{
-
+        position: absolute;
+        top: 150px;
+        left: 60px;
+        background-color: #F7EC7D;
+        border-radius: 0px 0px 50px 50px;
+        width: 80px;
+        height: 80px; 
     }
 </style>
 <body>
-    <div id="purple">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="purple">
+        <div id="yellowcurve"></div>
+        <div id="middle-curve"></div>
+        <div id="left-curve"></div>
     </div>
 </body>
 </html>

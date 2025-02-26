@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position absolute</title>
+</head>
+
+<style>
+    div{
+        background-color: #6592CF;
+        position: relative;
+        height:300px;
+        width:400px;
+    }
+    #yellowBall{
+        position: absolute;
+        top: 135px;
+        right: 185px;
+        background-color: #EEB850;
+        border-radius: 50px 50px 50px 50px;
+        width: 30px;
+        height: 30px;
+    }
+    .blueBALL{
+        position: absolute;
+        top: 100px;
+        right: 150px;
+        background-color: #243D83;
+        border-radius: 50px 50px 50px 50px;
+        width: 100px;
+        height: 100px;
+    }
+    #blueSQUARE{
+        position: absolute;
+        top: 100px;
+        right: 20px;
+        background-color: #243D83;
+        border-radius: 0px 0px 100px 100px;
+        width: 300px;
+        height: 150px;
+    }
+</style>
+
+<body>
+    <div>
+        <div id="blueSQUARE"></div>
+        <div class="blueBALL"></div>
+        <div id="yellowBall"></div> 
+        
+    </div>
+</body>
+</html>
