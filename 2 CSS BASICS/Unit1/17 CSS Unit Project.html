@@ -26,23 +26,46 @@
         position: absolute;
         top: 0px;
         right: 150px;
-        width:350px; height:250px;
+        width:350px;
+        height:240px;
     }
     p{
         font-family:'Times New Roman', Times, serif;
     }
+    #link-color{
+        color: black;
+        font-size: large;
+    }
+    .table-color{
+        background-color: black;
+    }
+    .tablerow-color{
+        background-color: red;
+    }
+    #backgroundcolor{
+        background-color: black;
+        color: red;
+    }
+    .sticky {
+        position: sticky;
+        top: 0;
+        background-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN1d2Z1NTc1aWxvdng5dWloa25ncGltOWtzZ2NxZzNkMnR0b3N5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x25DEIHLGEVoc/giphy.gif");
+    }
 </style>
 
 <body>
+ <div class="sticky">
     <div style="background-image: url('https://www.core2062.com/wp-content/uploads/2010/01/first_robotics_logo.png');height :168px; width: 200; background-repeat:no-repeat">
-        <img src = "imgs/Team_Photo.jpg"  alt="2024 RoboFalcons"></div>
+        <img src = "imgs/Team_Photo.jpg"  alt="2024 RoboFalcons">
+    </div>
     <h1 class="pageHeader">Robotics</h1>
         <br>
         <br>
         <br>
-        <br>
-        <br>
+        <a id=link-color href = "https://www.firstinspires.org/robotics/frc"
+                >First Robotics</a></li>
     <hr>
+ </div>
     <h3 class="paragrapheader">What is Robotics</h3>
         <div>
             <p>
@@ -56,12 +79,12 @@
         </div>
     <h3 class="paragrapheader">Different teams on the team</h3>
         <div>
-            <table border=5 collapse div style="color:black"> 
+            <table border=5 collapse div class="table-color"> 
                 
-                <tr style="background-color:red">
+                <tr class="tablerow-color">
                     <th colspan="5">Teams</th>
                 </tr>
-                            <tr style="background-color:red;">
+                            <tr class="tablerow-color">
                                 <th colspan="1">Build</th>
                                 <th colspan="1">Programing</th>
                                 <th colspan="1">Design</th>
@@ -69,26 +92,34 @@
                                 <th colspan="1">Scouting</th>
                             </tr>
 
-                            <tr style="background-color:red;">
+                            <tr class="tablerow-color">
                                 <td>  
                                     <ul>
-                                        <li>Learn all about STEM</li>
-                                        <li>Builds comradery with other people</li>
-                                        <li>Goes all the way to Worlds level</li>
-                                        <li>CAD can be fun</li>
-                                        <li>I love to work on mechanical things</li>
+                                        <li>I love using powertools</li>
+                                        <li>You learn valuable hands on experience</li>
+                                        <li>Learn how to wire things</li>
                                     </ul>
                                 </td>
                                 <td>  
                                     <ul>
-                                        <li>Favorite type of dog breed</li>
-                                        <li>They are playful</li>
-                                        <li>Love to be by their owners</li>
-                                        <li><strong>VERY ADORABLE</strong></li>
-                                        <li>Love belly rubs and being the center of attention</li>
+                                        <li>Code the whole bot</li>
+                                        <li>Figures out the exact limitations for the robot</li>
+                                        <li>Design autonamis periods which can be very vital to success</li>
                                     </ul>
                                 </td>
                                 <td>  
+                                    <ul>
+                                        <li><strong id="backgroundcolor">CREATE THE WHOLE BOT</strong></li>
+                                        <li>Decide what the main goal of the bot is</li>
+                                        <li>Add little specail things on the bot that you would only know and make it an "easter egg"</li>
+                                        <li>When building everyone will come to you looking for directions</li>
+                                    </ul>
+                                </td>
+                                <td>  
+                                    <ul>
+                                        <li>ss</li>
+                                    </ul>
+                                </td> <td>  
                                     <ul>
                                         <li>The work can be very good looking</li>
                                         <li>Very precise work</li>
@@ -100,5 +131,13 @@
                             </tr>
                  </table>
         </div>
+        <hr>
+        <div><strong>Sources:</strong>
+            <ul>
+               <li><a id=link-color href = "https://www.firstinspires.org/robotics/frc"
+                >First Robotics</a></li>
+                <li><a id=link-color href = "https://dcrobofalcons.com/"
+                >RoboFalcons website</a></li>
+            </ul></div>
 </body>
 </html>
