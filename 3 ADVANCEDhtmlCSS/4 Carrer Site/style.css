@@ -34,3 +34,7 @@ ul{
 .footer{
     background-color: blue;
 }
+.job-title{
+    color:maroon;
+    font-weight:bold;
+}
