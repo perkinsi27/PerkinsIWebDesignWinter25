@@ -22,19 +22,19 @@ h2{
 ul{
     color: white;
 }
-.header{
+header{
     border-style:groove;
     background-color: blue;
 }
-.content{
+main{
     background-color: blue;
     height: 80%;
     width: 70%;
 }
-.footer{
+footer{
     background-color: blue;
 }
 .job-title{
-    color:maroon;
+    color:white;
     font-weight:bold;
 }
