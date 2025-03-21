@@ -3,10 +3,6 @@ ul a{
     color: #e6d130;
     font-size: 25px;
 }
-div h2{
-    font-style: italic;
-    color: #30e694;
-}
 
 
 
@@ -24,6 +20,10 @@ body{
 h2 a{
     font-weight:bolder;
     color: inherit;
+}
+
+#featured h2{
+    color: #30e694
 }
 
 ul{
