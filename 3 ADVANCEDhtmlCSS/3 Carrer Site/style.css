@@ -19,7 +19,7 @@ h1{
 h2{
     color: white;
 }
-ul{
+#list-color{
     color: white;
 }
 header{
@@ -37,4 +37,12 @@ footer{
 .job-title{
     color:white;
     font-weight:bold;
+}
+.large-list{
+    font-size:25px;
+    font-weight:bold;
+}
+.sublists{
+    font-size: 18px;
+    font-weight: normal;
 }
