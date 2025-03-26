@@ -1,0 +1,15 @@
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+.inline{
+    display: inline;
+}
+
+p{
+    background-color: yellow;
+}
