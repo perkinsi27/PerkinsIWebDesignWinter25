@@ -16,6 +16,7 @@ body{
 }
 
 /** Styles for the "buttons" **/
+
 a{
     border: 7px groove #baaf5d; /* sets the border to make it look like a button */
     text-decoration:none; /* removes the underline from the link */
@@ -24,7 +25,5 @@ a{
 }
 
 .featured{
-    color:white;
     font-size:64px;
-    background-color:#baaf5d;
 }
