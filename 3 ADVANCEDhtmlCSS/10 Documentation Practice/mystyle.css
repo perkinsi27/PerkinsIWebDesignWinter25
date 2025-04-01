@@ -1,0 +1,13 @@
+header{
+    color: LemonChiffon;
+    background-color: black;
+    width: 50%;
+}
+main{
+    background-color: HoneyDew;
+    font-size: 24px;
+    width: 70%;
+}
+body{
+    background-image:url("https://codehs.com/images/lightbulb");
+}
