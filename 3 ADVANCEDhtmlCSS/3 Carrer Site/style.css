@@ -1,38 +1,32 @@
 h3{
     text-transform: uppercase;
-    color: white;
-}
-p{
-    font-family: Arial;
-    color: white;
 }
 body{
     background-image:url("https://4.bp.blogspot.com/-wZs_O1shD9E/WMaVzxKPPUI/AAAAAAAAW0c/RXMa9NRJz50YJOd766NCoHLMCVneuYcewCLcB/s1600/0DD.jpg");
 }
 a{
     font-size: 16px;
-    color: white;
-}
-h1{
-    color: white;
-}
-h2{
-    color: white;
 }
 #list-color{
     color: white;
+    font-family: Arial;
 }
 header{
     border-style:groove;
     background-color: blue;
+    font-size: 1em;
 }
 main{
     background-color: blue;
     height: 80%;
     width: 70%;
+    margin: 15px;
+    padding: 10px;
 }
 footer{
     background-color: blue;
+    margin: 15px;
+    padding: 10px;
 }
 .job-title{
     color:white;
