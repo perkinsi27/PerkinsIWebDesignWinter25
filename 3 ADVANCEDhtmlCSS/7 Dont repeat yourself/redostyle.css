@@ -1,20 +1,19 @@
-.primary-btn {
-    padding: 10px 20px;
+  #primary-btn {
     background-color: #007bff;
   }
   
-  .secondary-btn {
-    padding: 10px 20px;
+  #secondary-btn {
     background-color: #6c757d;
   }
   
-  .danger-btn {
+  #danger-btn {
     padding: 10px 40px;
     background-color: #dc3545;
   }
-  #dry-princelpls{
+  .dry-princelpls{
     color: white;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+    padding: 10px 20px;
   }
