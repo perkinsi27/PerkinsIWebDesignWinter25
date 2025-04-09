@@ -1,0 +1,6 @@
+img{
+    filter: invert(1);
+}
+#special:hover{
+    filter: invert(0);
+}

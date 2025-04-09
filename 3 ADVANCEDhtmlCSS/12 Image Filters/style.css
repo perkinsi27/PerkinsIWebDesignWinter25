@@ -7,6 +7,24 @@
 #even{
     filter: grayscale(1);
 }
+#Fajitas:hover{
+    background-image:url("https://codehs.com/uploads/6243c1b771b83120b70770a16cef8209");
+}
+#Hummus:hover{
+    background-image:url("https://codehs.com/uploads/bc41c0188ad8c13fdf85a4b6c360cee4");
+}
+#Massaman-Curry:hover{
+    background-image:url("https://codehs.com/uploads/0c5718b6da3ffb85901f6f18ea34d0ca");
+} 
+#Paella:hover{
+    background-image:url("https://codehs.com/uploads/4d2cd36f45267160b0db846606104ea0");
+}
+#Pho:hover{
+    background-image:url("https://codehs.com/uploads/1929782939fb200100f4118e25bdca40");
+}
+#Pierogi:hover{
+    background-image:url("https://codehs.com/uploads/de4f6e02deb0087f1f5b1ad1a7dcaba8");
+}
 
 /* Put your styles ABOVE this line */
 div.platter{
