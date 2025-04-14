@@ -28,7 +28,7 @@
  .platter:hover .label{
      visibility:visible; 
  }
- .platter:hover{
+/* .platter:hover{
     animation: serve 3s forwards;
 }
 @keyframes serve {
@@ -41,6 +41,11 @@
         height:400px;
         width:400px;
     }
+}*/
+.platter:hover{
+    rotate: 360deg;
+    height: 400px;
+    width: 400px;
 }
 
  /* Put your styles ABOVE this line */
@@ -50,9 +55,9 @@
      height:200px;
      width:200px;
      background-image:url("https://codehs.com/uploads/89cf9fba5b5692f3062d7b671ace4feb");
-    
+     transition: 3s;
  }
- 
+
  .label{
      color:white;
      text-shadow: 2px 2px 3px gray;
