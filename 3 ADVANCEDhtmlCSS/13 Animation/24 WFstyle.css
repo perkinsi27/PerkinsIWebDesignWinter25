@@ -46,6 +46,7 @@
     rotate: 360deg;
     height: 400px;
     width: 400px;
+    visibility: visible;
 }
 
  /* Put your styles ABOVE this line */
