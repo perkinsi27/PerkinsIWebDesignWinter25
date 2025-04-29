@@ -1,3 +1,49 @@
+footer{
+    text-align: left;
+    background-color:black;
+}
+main{
+    background-color:black;
+}
 header{
-    text-align: center;
+    background-color:black;
+}
+body{
+    
+    color:whitesmoke;
+    text-align:center;
+    background-image:url("https://4.bp.blogspot.com/-wZs_O1shD9E/WMaVzxKPPUI/AAAAAAAAW0c/RXMa9NRJz50YJOd766NCoHLMCVneuYcewCLcB/s1600/0DD.jpg");
+}
+.visual-aid:hover{
+    animation: text 3s forwards;
+}
+@keyframes text {
+    from {
+        height:200px;
+        width:200px;
     }
+    
+    to {
+        height:300px;
+        width:300px;
+    }
+}
+.visual-aid:hover .img-text{
+    visibility: visible;
+}
+.img-text{
+    width: 200px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border-radius:6px;
+    position: absolute;
+    z-index: 1;
+    visibility:hidden;
+    left:270px ;
+    top: 60px;
+    padding: 10px;
+}
+a{
+    color: aqua;
+}
