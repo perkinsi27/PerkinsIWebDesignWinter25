@@ -1,49 +1,42 @@
 footer{
     text-align: left;
     background-color:black;
+    padding: 2px;
 }
 main{
     background-color:black;
+    padding: 2px;
 }
 header{
     background-color:black;
+    padding: 2px;
 }
 body{
-    
     color:whitesmoke;
     text-align:center;
-    background-image:url("https://4.bp.blogspot.com/-wZs_O1shD9E/WMaVzxKPPUI/AAAAAAAAW0c/RXMa9NRJz50YJOd766NCoHLMCVneuYcewCLcB/s1600/0DD.jpg");
+    background-image:url("https://static01.nyt.com/images/2015/07/07/science/07BRODY/07BRODY-tmagArticle.jpg");
+}
+a{
+    color: aqua;
+}
+img{
+    height:200px;
+    width:200px;
+    transition: width 3s, height 3s
+}
+.visual-aid{
+    transition-timing-function: ease-in-out;
 }
 .visual-aid:hover{
-    animation: text 3s forwards;
-}
-@keyframes text {
-    from {
-        height:200px;
-        width:200px;
-    }
-    
-    to {
-        height:300px;
-        width:300px;
-    }
-}
-.visual-aid:hover .img-text{
-    visibility: visible;
+    height:400px;
+    width:400px;
 }
 .img-text{
-    width: 200px;
-    background-color: black;
     color: whitesmoke;
-    text-align: center;
-    border-radius:6px;
-    position: absolute;
+    text-align: right;
     z-index: 1;
     visibility:hidden;
     left:270px ;
     top: 60px;
     padding: 10px;
-}
-a{
-    color: aqua;
 }
