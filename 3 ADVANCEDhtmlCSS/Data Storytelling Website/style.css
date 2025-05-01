@@ -19,10 +19,13 @@ body{
 a{
     color: aqua;
 }
-img{
+h3{
+    text-decoration-line: underline;
+}
+.visual-aid{
     height:200px;
     width:200px;
-    transition: width 3s, height 3s
+    transition: width 3s, height 3s;
 }
 .visual-aid{
     transition-timing-function: ease-in-out;
@@ -32,11 +35,17 @@ img{
     width:400px;
 }
 .img-text{
-    color: whitesmoke;
-    text-align: right;
-    z-index: 1;
-    visibility:hidden;
-    left:270px ;
-    top: 60px;
-    padding: 10px;
+    font-size: xx-small;
+}
+.img-text:hover{
+    animation: font 3s forwards;
+}
+@keyframes font {
+    from {
+        font-size: xx-small;
+    }
+    
+    to {
+        font-size:large;
+    }
 }
