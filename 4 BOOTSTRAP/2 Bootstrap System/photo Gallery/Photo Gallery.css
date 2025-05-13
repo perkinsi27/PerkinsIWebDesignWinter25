@@ -10,6 +10,11 @@ h2, h3, h4, h5, h6{
     color: #6D7993; /* Accent */
 }
 
+img{
+    height: 200px;
+    width: 200px;
+}
+
 a{
     color:inherit;
 }
@@ -22,17 +27,37 @@ a:hover{
 /* Homepage styles*/
 .cover{
     height:300px;
-    margin-top:25%;
+    margin-top:15%;
     background-image:url(https://www.publicdomainpictures.net/pictures/140000/t2/ark-texture-impasto-color-swirl-.jpg);
     background-size: cover;
 }
 
 div.front-logo h1{
     color: white;
+    margin: 50px;
 }
 
 main div.col-md-2 {
     height:200px;
     padding:2em;
     margin-top:2em;
+}
+
+.front-nav-1{
+    background-color: #64271b;
+}
+
+.front-nav-2{
+    background-color: #354243;
+}
+
+.front-nav-3{
+    background-color: #80598d;
+}
+
+.h1{
+    background-color: #786080;
+    margin: 50px;
+    padding: 2em;
+    color: gray;
 }
