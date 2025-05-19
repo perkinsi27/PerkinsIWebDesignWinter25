@@ -1,0 +1,22 @@
+body{
+    background-image:url(https://wallpaperaccess.com/full/667265.png);
+    color: aqua;
+}
+header{
+    text-align: center;
+    font-size: 5em;
+    background-color: black;
+    text-decoration-line: underline;
+}
+main{
+    background-color: black;
+}
+footer{
+    background-color: black;
+}
+a{
+    color: aqua;
+}
+.h2{
+    text-decoration-line: underline;
+}
