@@ -20,3 +20,10 @@ a{
 .h2{
     text-decoration-line: underline;
 }
+img{
+    height: 150px;
+    width: 150px;
+}
+.container-fluid{
+    background-color: aqua;
+}
